@@ -20,7 +20,7 @@ const Navbar = () => {
           <img src={list} alt="nav-icon" />
         </div>
         <div className='logo-div'>
-          <img onClick={() => navigate("/movie-app/")} className="logo" src={logo} alt="movies" />
+          <img onClick={() => window.location.reload(false)} className="logo" src={logo} alt="movies" />
         </div>
         <nav className={click ? "nav-el show" : "nav-el"}>
           <ul className='nav-ul'>

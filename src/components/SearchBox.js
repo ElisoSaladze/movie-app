@@ -1,17 +1,20 @@
 import React from 'react'
 import '../styles/Searchbar.css'
+import { useState } from 'react';
 
 
 const SearchBox = (props) => {
-    const {Title, Poster} = props.movie;
+  const [click, setClick] = useState(false);
+    const {Title, Poster, Year, Type} = props.movie;
   return (
-    <div>
-      <div className='search-card'>
+    <div onClick={() => setClick(!click)}  className='result'>
+      <div  className='search-card'>
         <img className='poster' src={Poster} alt="poster" />
-        <span className='vote-search'>{Title}</span>
       </div>
-      <div>
-        
+      <div className={click ? "info" : "hide"}>
+        <h3>{Title}</h3>
+        <p>{Year}</p>
+        <p>{Type}</p>
       </div>
     </div>
     

@@ -5,6 +5,12 @@
     display: flex;
     justify-content: center;
 }
+.result {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .search {
     display: flex;
     flex-direction: row;
@@ -35,7 +41,6 @@
 }
 .search ::placeholder {
     top: 10%;
-    position: absolute;
     font-size: 25px;
 }
 .center-search {
@@ -78,28 +83,33 @@
     cursor: pointer; 
  }
  .search-card .poster {
-     position: relative;
+    position: relative;
      width: 100%;
      height: auto;
      border-radius: 20px;
      z-index: 0;
      object-fit: cover;
  }
- .search-card .vote-search {
-     z-index: 1;
-     right: 0;
-     width: 100%;
-     height: 100%;
-     font-size: 1em;
-     color: white;
-     position: absolute;
-     text-align: center;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     background: rgba(232, 232, 232, 0.038);
-     backdrop-filter: blur(1px);
-     border-radius: 20px;
+ .info {
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    bottom: 0;
+    position: absolute;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(232, 232, 232, 0.038);
+    backdrop-filter: blur(2.5px);
+    color: white;
+ }
+ .hide {
+    display: none;
+ }
+ .logo-div {
+    cursor: pointer;
  }
  @media screen and (max-width: 600px) {
     .search input {
