@@ -1,0 +1,54 @@
+.box {
+   display: flex;
+   flex-direction: column; 
+   width: 80%;
+   font-size: 16px;
+   cursor: pointer; 
+}
+.card {
+   position: relative;
+   display: flex;
+   flex-direction: column; 
+   width: 90%;
+   font-size: 16px;
+   cursor: pointer; 
+}
+.card-mom {
+    position: relative;
+}
+.card:hover {
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 3;
+    -webkit-box-shadow: 1px 2px 20px 11px rgba(0,0,0,0.32);
+    -moz-box-shadow: 1px 2px 20px 11px rgba(0,0,0,0.32);
+    box-shadow: 1px 2px 20px 11px rgba(0,0,0,0.32);
+}
+.card .poster {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    z-index: 0;
+}
+.vote {
+    z-index: 1;
+    right: 0;
+    width: 30%;
+    font-size: 1em;
+    color: white;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(232, 232, 232, 0.15);
+    backdrop-filter: blur(2.5px);
+    border-radius: 0px 20px;
+}
+@media screen and (max-width: 500px) {
+    .vote {
+        display: none;
+    }
+}

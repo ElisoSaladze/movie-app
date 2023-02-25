@@ -1,0 +1,30 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 20px;
+}
+.header {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    font-size: 25px;
+}
+.header h1 {
+    color: #E8E8E8;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 38px;
+}
+.d {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 20px;
+    }
+}

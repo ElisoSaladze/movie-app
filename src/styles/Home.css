@@ -1,0 +1,32 @@
+.home-grid .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.header .a {
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1);
+    font-size: 0.6em;
+}
+.home-grid {
+    margin-top: 50px;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home .search {
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 20px;
+    }
+}

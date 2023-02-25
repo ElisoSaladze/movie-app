@@ -1,0 +1,111 @@
+.backdrop-div .backdrop {
+    z-index: 0;
+    border-radius: 40px;
+    position: relative;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.backdrop-div {
+    position: relative;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+    justify-self: center;
+}
+.title {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    background: rgba(18, 18, 18, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    font-size: 32px;
+}
+.title p {
+    font-size: 0.5em;
+    color: rgba(235, 238, 245, 1);
+}
+.title h2 {
+    font-size: 1em;
+    color: rgba(235, 238, 245, 1);
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-movie {
+    margin-top: 90px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.posterBox {
+    display: flex;
+    justify-content: center;
+}
+.about-movie .movie-poster {
+    width: 60%;
+    height: auto;
+    border-radius: 24px;
+}
+.text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    color: rgba(232, 232, 232, 1);
+}
+.text-div p {
+    font-size: 0.8em;
+    color: rgba(61, 210, 204, 1);
+}
+.text-div .overview {
+    color: rgba(232, 232, 232, 1);
+    font-size: 1em;
+    font-weight: 400;
+}
+.overview-div {
+    width: 70%;
+}
+.text-div span {
+    margin-top: 0;
+   font-weight: 400;
+}
+.movie-genres {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 10px;
+}
+.movie-genres .movie-genre {
+    border: 1px solid rgba(232, 232, 232, 0.35);
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+    padding: 10px;
+}
+@media screen and (max-width: 600px) {
+    .backdrop-div {
+        display: none;
+    }
+    .about-movie {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .posterBox {
+        width: 100%;
+    }
+    .about-movie .movie-poster {
+        width: 100%;
+        height: auto;
+    }
+}
