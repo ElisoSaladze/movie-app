@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/movie-app/static/css/main.019ac364.css",
-    "main.js": "/movie-app/static/js/main.80cb71dd.js",
+    "main.css": "/movie-app/static/css/main.2fbbec45.css",
+    "main.js": "/movie-app/static/js/main.0c1f8776.js",
     "static/media/Movie Projector.svg": "/movie-app/static/media/Movie Projector.40394008aed6cd6b090a003a4114b03f.svg",
     "static/media/Search.svg": "/movie-app/static/media/Search.837d9163dfbbe9b2beaad25175aaabd5.svg",
     "static/media/Vector (4).svg": "/movie-app/static/media/Vector (4).98cc65c408ce38447dbbf5c56376ce58.svg",
@@ -9,13 +9,14 @@
     "static/media/Star.svg": "/movie-app/static/media/Star.5c70cfa5c98aece24e2d9f019b31ecc3.svg",
     "static/media/Home.svg": "/movie-app/static/media/Home.7b71b798c4ab5c2c69fa4cb477c4225d.svg",
     "static/media/TV Show.svg": "/movie-app/static/media/TV Show.2f0158dda1abc00ad9c28f362447ba29.svg",
+    "static/media/List.svg": "/movie-app/static/media/List.e1a94950e6e0bd7ac313c758108a2453.svg",
     "static/media/smol.svg": "/movie-app/static/media/smol.1942aa3697f94cd09879f6b582c4bd25.svg",
     "index.html": "/movie-app/index.html",
-    "main.019ac364.css.map": "/movie-app/static/css/main.019ac364.css.map",
-    "main.80cb71dd.js.map": "/movie-app/static/js/main.80cb71dd.js.map"
+    "main.2fbbec45.css.map": "/movie-app/static/css/main.2fbbec45.css.map",
+    "main.0c1f8776.js.map": "/movie-app/static/js/main.0c1f8776.js.map"
   },
   "entrypoints": [
-    "static/css/main.019ac364.css",
-    "static/js/main.80cb71dd.js"
+    "static/css/main.2fbbec45.css",
+    "static/js/main.0c1f8776.js"
   ]
 }

@@ -1,0 +1,21 @@
+<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g filter="url(#filter0_d_159_228)">
+<rect x="2" width="23" height="23" fill="url(#pattern0)" fill-opacity="0.9" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_d_159_228" x="0" y="0" width="27" height="27" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_159_228"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_159_228" result="shape"/>
+</filter>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_159_228" transform="scale(0.01)"/>
+</pattern>
+<image id="image0_159_228" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABmJLR0QA/wD/AP+gvaeTAAACEElEQVR4nO3aPY9NQRzH8e+I1WgEiUREg0KnsAoKJErRUXoRHgrv58q+AFERtvbcUZBgRaUkNlv4KXYTJO55uPauOed+P+39Z+Zk/pk750x+IEmSJEmSJEmSJGlxla6FSQpwHDgIfAHellIyrwfTFEn2JLmd5FP+tJbkVpKl//2MY9K4Q5LsBe4D5xvKVoHLpZRvszxAkv3AEWCMjV0HPpRSvm7LaElW0s1khrFPJHmY5EfHOYZqI8ndJAe6rMvUHZJkGXjSdX2BM6WUZ52Kk8PAC+BQx/HH4BVwtpTyvaloV8Nv13pMVoCrPervsFjNADgFXG8ramrIyZ4T9qm/2HPssbjQVtDUkL6vtL4Ct2tdo6aGvO452ZsetY97jj0Wq20FTYf6aeBpx4kCLJdSnncqXsxD/SWbh/p6U9HUHbL1xrTScbJJ12Zsjf0ZOAc8YPx/dRvABLjU1gzo9mF4j+ZD+BFw5R8+DPcBRxnvh+H7Wdfmr5IsJbmZzauS331MciPJ7m2bTL0vF4/x63LxnZeLkiRJkiRJ2kEG5YYmBuV2lEG5+TIoVyGDcpUyKFcZg3IVMihXGYNylTEoVxGDcpUwKFcRg3JDZ1BOkiRJkiRJQ2FQbmhiUG5HGZSbL4NyFTIoVymDcpUxKFchg3KVMShXGYNyFTEoVwmDchUxKDd0BuUkSZIkSZIkSZIkqRo/ASvR/5afMP5tAAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
