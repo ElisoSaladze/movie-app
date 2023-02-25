@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <nav className='nav-el'>
           <ul className='nav-ul'>
-            <li><a onClick={() => navigate("/")} href="#home"><img src={home} alt="home"/>Home</a></li>
+            <li><a onClick={() => navigate("/movie-app/")} href="#home"><img src={home} alt="home"/>Home</a></li>
             <li><a onClick={() => navigate("/Movies/")} href="#movies"><img src={projector} alt="projector"/>Movies</a></li>
             <li><a onClick={() => navigate("/Trending/")} href="#trending"><img src={show} alt="tv-show"/>Trending</a></li>
             <li><a onClick={() => navigate("/Upcoming/")} href="#upcoming"><img src={calendar} alt="calendar"/>Upcoming</a></li>
