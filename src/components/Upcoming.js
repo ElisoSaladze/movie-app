@@ -18,7 +18,7 @@ const Upcoming = () => {
       }, [])
   return (
     <div className='grid' id="upcoming">
-      <Searchbar />
+      {/* <Searchbar /> */}
         <div className='header d'>
             <h1>Upcoming</h1>
         </div>

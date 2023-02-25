@@ -9,9 +9,6 @@
     color: rgba(102, 102, 102, 1);
     font-size: 0.6em;
 }
-.home-grid {
-    margin-top: 50px;
-}
 .home {
     display: flex;
     flex-direction: column;
@@ -28,5 +25,9 @@
         justify-content: center;
         justify-items: center;
         row-gap: 20px;
+    }
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 }

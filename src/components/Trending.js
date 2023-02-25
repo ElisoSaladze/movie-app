@@ -19,7 +19,7 @@ const Trending = () => {
   return (
     <div  id="trending">
       <div className='grid'>
-        <Searchbar />
+        {/* <Searchbar /> */}
         <div className='header d'>
           <h1>Trending</h1>
         </div>

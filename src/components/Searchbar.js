@@ -22,12 +22,12 @@ const Searchbar = () => {
   }
 
   return (
-    <div className='center-search'>
+    <div className="center-div">
       <div className='search'>
         <button type='submit'><img src={search} alt="search" /></button>
-        <input type="text" placeholder="Search for movies, TV shows.." value={searchQuery} onChange={onTextChange}/>
+        <input type="text" placeholder="Search for movies.." value={searchQuery} onChange={onTextChange}/>
       </div>
-      <div className='grid search-grid'>
+      <div className={movieList?.length ? "grid search-grid" : "none"}>
        {movieList?.length ? movieList.map((movie, index) =><SearchBox key={index} movie={movie}/>) : null} 
       </div> 
     </div>

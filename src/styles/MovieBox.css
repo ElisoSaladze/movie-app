@@ -48,7 +48,7 @@
     border-radius: 0px 20px;
 }
 @media screen and (max-width: 500px) {
-    .vote {
+    /* .vote {
         display: none;
-    }
+    } */
 }

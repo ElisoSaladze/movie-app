@@ -19,7 +19,7 @@ const Movies = () => {
   }, [])
   return (
     <div id="movies" className='grid'>
-      <Searchbar />
+      {/* <Searchbar /> */}
       {movies.map((movieReq) => 
       <Link key={movieReq.id} className='box' to={`/About-movie/${movieReq.id}`}><MovieBox {...movieReq}/></Link>
       )}

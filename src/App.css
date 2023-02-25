@@ -3,6 +3,7 @@ body {
     padding: 0;
     text-decoration: none;
     background-color: rgba(25, 25, 25, 1);
+    overflow-x: hidden;
 }
 body {
     display: flex;

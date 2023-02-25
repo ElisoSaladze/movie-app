@@ -12,6 +12,7 @@
     grid-column-end: 3;
     width: 90%;
     justify-self: center;
+    margin-bottom: 50px;
 }
 .title {
     z-index: 1;
@@ -25,6 +26,9 @@
     align-items: center;
     width: 40%;
     font-size: 32px;
+}
+.title {
+    transform: translate(30%, 50%);
 }
 .title p {
     font-size: 0.5em;
@@ -44,8 +48,9 @@
     margin-top: 90px;
     width: 90%;
     display: grid;
+    grid-gap: 40px;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 .posterBox {
@@ -53,7 +58,7 @@
     justify-content: center;
 }
 .about-movie .movie-poster {
-    width: 60%;
+    width: 100%;
     height: auto;
     border-radius: 24px;
 }
@@ -83,6 +88,7 @@
 .movie-genres {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     grid-gap: 10px;
 }
 .movie-genres .movie-genre {
@@ -91,21 +97,27 @@
     border-radius: 15px;
     padding: 10px;
 }
-@media screen and (max-width: 600px) {
-    .backdrop-div {
-        display: none;
+@media screen and (max-width: 620px) {
+    .backdrop-div .backdrop {
+        width: 100%;
+        height: 200px;
+        border-radius: 0%;
+    }
+    .title {
+        width: 100%;
+        height: 100%;
+        border-radius: 0%;
+        transform: translate(0, 0);
     }
     .about-movie {
-        margin-top: 50px;
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-    .posterBox {
-        width: 100%;
     }
     .about-movie .movie-poster {
         width: 100%;
         height: auto;
+    }
+    .text-div {
+        width: 90%;
     }
 }

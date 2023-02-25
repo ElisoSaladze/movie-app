@@ -19,12 +19,16 @@
 .d {
     display: none;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         justify-items: center;
         row-gap: 20px;
+    }
+    .header {
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
 }

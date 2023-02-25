@@ -9,7 +9,7 @@ import Searchbar from './Searchbar'
 const Home = () => {
   return (
     <div className='home' id="home">
-      <Searchbar />
+      {/* <Searchbar /> */}
       <Carousel />
       <HomeTrending />
       <HomeUpcoming />
