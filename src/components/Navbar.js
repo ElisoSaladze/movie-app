@@ -12,7 +12,7 @@ const Navbar = () => {
     <div className='navbar'>
       <header>
         <div className='logo-div'>
-          <img onClick={() => navigate("/")} className="logo" src={logo} alt="movies" />
+          <img onClick={() => navigate("/movie-app/")} className="logo" src={logo} alt="movies" />
         </div>
         <nav className='nav-el'>
           <ul className='nav-ul'>
