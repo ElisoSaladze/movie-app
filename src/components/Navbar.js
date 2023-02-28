@@ -6,13 +6,13 @@ import projector from '../assets/Movie Projector.svg';
 import logo from '../assets/Vector (4).svg'
 import '../styles/Navbar.css'
 import Searchbar from './Searchbar';
-import { useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import list from '../assets/List.svg'
 import { useState } from 'react';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <div className='navbar'>
       <header>
@@ -24,10 +24,10 @@ const Navbar = () => {
         </div>
         <nav className={click ? "nav-el show" : "nav-el"}>
           <ul className='nav-ul'>
-            <li><a onClick={() => navigate("/movie-app/")} href="#home"><img src={home} alt="home"/>Home</a></li>
-            <li><a onClick={() => navigate("/Movies/")} href="#movies"><img src={projector} alt="projector"/>Movies</a></li>
-            <li><a onClick={() => navigate("/Trending/")} href="#trending"><img src={show} alt="tv-show"/>Trending</a></li>
-            <li><a onClick={() => navigate("/Upcoming/")} href="#upcoming"><img src={calendar} alt="calendar"/>Upcoming</a></li>
+            <li><Link to={"/movie-app/"}><img src={home} alt="home"/>Home</Link></li>
+            <li><Link to={"/Movies/"}><img src={projector} alt="projector"/>Movies</Link></li>
+            <li><Link to={"/Trending/"}><img src={show} alt="tv-show"/>Trending</Link></li>
+            <li><Link to={"/Upcoming/"}><img src={calendar} alt="calendar"/>Upcoming</Link></li>
           </ul>
         </nav>
         <Searchbar />
