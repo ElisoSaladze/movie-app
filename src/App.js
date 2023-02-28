@@ -7,7 +7,7 @@ import Upcoming from './components/Upcoming'
 import AboutMovie from './components/AboutMovie'
 import Top from './components/Top'
 import ".//App.css"
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {                                             
   return (
@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/movie-app/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Movies/" element={<Movies />} />
           <Route path="/Trending/" element={<Trending />} />
           <Route path="/Upcoming/" element={<Upcoming />} />

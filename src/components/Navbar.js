@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <nav className={click ? "nav-el show" : "nav-el"}>
           <ul className='nav-ul'>
-            <li><Link to={"/movie-app/"}><img src={home} alt="home"/>Home</Link></li>
+            <li><Link to={"/"}><img src={home} alt="home"/>Home</Link></li>
             <li><Link to={"/Movies/"}><img src={projector} alt="projector"/>Movies</Link></li>
             <li><Link to={"/Trending/"}><img src={show} alt="tv-show"/>Trending</Link></li>
             <li><Link to={"/Upcoming/"}><img src={calendar} alt="calendar"/>Upcoming</Link></li>

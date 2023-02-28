@@ -8,7 +8,6 @@ import HomeTop from './HomeTop'
 const Home = () => {
   return (
     <div className='home'>
-      {/* <Searchbar /> */}
       <Carousel />
       <HomeTrending />
       <HomeUpcoming />
