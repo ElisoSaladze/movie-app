@@ -4,11 +4,10 @@ import Carousel from './Carousel'
 import HomeTrending from './HomeTrending'
 import HomeUpcoming from './HomeUpcoming'
 import HomeTop from './HomeTop'
-import Searchbar from './Searchbar'
 
 const Home = () => {
   return (
-    <div className='home' id="home">
+    <div className='home'>
       {/* <Searchbar /> */}
       <Carousel />
       <HomeTrending />
